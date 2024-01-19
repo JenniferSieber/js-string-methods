@@ -1,1 +1,1 @@
-JavaScript String Method Examples with consoles.
+#JavaScript String Method Examples with consoles.
