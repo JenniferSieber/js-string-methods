@@ -2,6 +2,13 @@
 const string = 'JavaScript String Methods'
 console.log('String using:', string)
 
+// convert string to an array example .split() method with one or more char splits
+const s = 'the-stealth-warrior'
+const sArray = s.split('-') // ['the','stealth','warrior']
+// split on the - or _
+const s2 = 'The_Stealth-String'
+const s2Array = s2.split(/[_-]/) // regex for multiple split characters  ['The', 'Stealth', 'String']
+
 // charAt(index)
 console.log('charAt(index): returns the character at the specific index')
 console.log('character at index 20', string.charAt(20))
